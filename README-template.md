@@ -39,7 +39,7 @@ Personal Goals:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [SolutionURL](https://your-solution-url.com)
 - Live Site URL: [Live Site](https://tmerrick17.github.io/interactive-rating-component/)
 
 ## My process
