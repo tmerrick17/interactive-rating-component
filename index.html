@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="public/css/main.min.css">
+
+  <title>Interactive Rating Component</title>
+</head>
+<body>
+
+  <main>
+
+    <!-- Rating state start -->
+    <div class="card card--rating" id="card-rating">
+      <!-- <div class="card__img-star-wrapper"> -->
+        <img class="card__img-star" src="public/images/icon-star.svg" alt="yellow star">
+      <!-- </div> -->
+
+      <h1 class="card__hdr">How did we do?</h1>
+
+      <p class="card__p">Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+
+      <div class="card__num-wrapper">
+        <button class="card__btn card__btn--rating" id="rating-1" data-rating="1"></button>
+        <button class="card__btn card__btn--rating" id="rating-2" data-rating="2"></button>
+        <button class="card__btn card__btn--rating" id="rating-3" data-rating="3"></button>
+        <button class="card__btn card__btn--rating" id="rating-4" data-rating="4"></button>
+        <button class="card__btn card__btn--rating" id="rating-5" data-rating="5"></button>
+      </div>
+
+      <button class="card__btn card__btn--submit" id="btn-submit">Submit</button>
+
+    </div>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="card card--summary" id="card-summary">
+      <img class="card__img-pos" src="public/images/illustration-thank-you.svg" alt="">
+
+      <p class="card__rating-outcome">
+        You selected <span id="rating-num"></span> out of 5
+      </p>
+
+      <h1 class="card__hdr">Thank you!</h1>
+
+      <p class="card__p card__p--center">
+        We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+      </p>
+    </div>
+    <!-- Thank you state end -->
+
+  </main>
+
+
+  <footer>
+    <p>Challenge by
+        <a class="footer__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor</a> Coded by <a class="footer__link" href="https://github.com/tmerrick17">
+        Trevor Merrick
+        </a>
+    </p>
+</footer>
+
+<!-- JS file -->
+<script src="public/js/main.js"></script>
+
+</body>
+</html>

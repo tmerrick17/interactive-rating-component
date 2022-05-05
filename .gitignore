@@ -1,0 +1,12 @@
+# GIT Ignore
+
+node_modules
+.vscode
+package-lock.json
+.DS_Store
+
+src
+
+# Front-End Mentor
+style-guide.md
+
